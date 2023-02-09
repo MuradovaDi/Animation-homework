@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teach for UA</title>
+    <meta name="description" content="Освітньо-громадська організація. Формуємо майбутнє дітей.">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="#">
+                <div class="logo flex">
+                    <img src="./img/logo.svg" alt="logo">
+                    <span class="logo-caption">Програма для змін у країні</span>
+                </div>
+            </a>
+                <nav class="desktop">
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <a href="#" class="flex">
+                                школам
+                                <div class="dropdown__arrow"></div>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="flex">
+                                партнерам
+                                <div class="dropdown__arrow"></div>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="flex">
+                                про нас
+                                <div class="dropdown__arrow"></div>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="flex">
+                                історії
+                                <div class="dropdown__arrow"></div>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#" class="flex">
+                                підтримка
+                                <div class="dropdown__arrow"></div>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <select id="language">
+                                <option value="uk">УКР</option>
+                                <option value="en">ENG</option>
+                            </select>
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav class="mobile">
+                    <select id="language">
+                        <option value="uk">УКР</option>
+                        <option value="en">ENG</option>
+                    </select>
+                    <button type="button">
+                        <img src="./img/burger-bar.png" alt="menu">
+                    </button>
+                </nav>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container about__container">
+            <div class="about__content flex">
+                <div class="section-header">
+                    <span class="section-header__subtitle">партнерам</span>
+                    <h2 class="section-header__title">залучись
+                        <br>— будь нашим <br>партнером</h2>
+                    <p class="section-header__description">Будь спонсором, зроби зміни в країні можливими.</p>
+                </div>
+                <div class="arrow-down">
+                    <img src="./img/arrow-down.svg" alt="">
+                </div>
+            </div>
+            <div class="tabs">
+                <div class="tabs__pills">
+                    <button type="button" class="tabs-item">
+                        <a href="#">партнерам</a>
+                    </button>
+                    <button type="button" class="tabs-item">
+                        <a href="#">інвестувати</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
